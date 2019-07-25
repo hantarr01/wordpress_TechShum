@@ -1,0 +1,356 @@
+/*
+ * Theme Name: TechShum
+ *
+ * Layout: style
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*////////////////////////// HEADER started //////////////////////////////*/
+
+.HeaderBlock{
+  display: table;
+  float:right;
+  width: 100%;
+  background-image: url(../img/menu1.gif);
+  background-size: 100vw 65vw;
+  background-repeat: no-repeat;
+}
+
+
+
+/*////////////////////////// MENU started //////////////////////////////*/
+
+.Nav1Menu{
+  background-color: rgba(1, 1, 1, 0.1); 
+  box-shadow: none;
+}
+
+.Nav1Menu a:hover{
+  color: red;
+  transition: 0.5s;
+}
+
+#mobile-demo{
+  text-align: left;
+  background-color: #232629;
+}
+
+#mobile-demo a{
+ color:white;
+}
+
+#mobile-demo a:hover{
+ color:red;
+ transition:0.5;
+}
+
+#logoMenuIndexW{ 
+  text-shadow: 1px 1px 2px black, 0 0 2em black;
+  font-family: 'Righteous', cursive;
+  float: left;
+  color: white;  
+}
+
+/*////////////////////////// MENU stoped //////////////////////////////*/
+
+.logo a{
+  letter-spacing: 2px;
+  color:white;
+  text-align: center;
+}
+.logo{
+  line-height: 0.5;
+  text-shadow: 1px 1px 5px black, 0 0 3em black;
+  font-size:60px;  
+  font-family: 'Righteous', cursive;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.logoTextInformation{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom:20%; 
+  text-shadow: 1px 1px 5px black, 0 0 3em black;
+  font-family: 'Righteous', cursive;
+}
+
+.logoTextInformation a{
+  color: white;
+}
+
+.hoverLogoIndex:hover a{
+color: red;
+transition: 900ms;
+}
+
+/*////////////////////////// HEADER stoped //////////////////////////////*/
+
+
+/*///////////////////////////// CONTENT /////////////////////////////////*/
+
+.contentBlock{
+  padding:70px;
+  display: table;
+  background-color: #151719;
+  width:100%; 
+}
+
+.slide--parent {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+}
+
+ a{
+  color: red;
+}
+
+.sliderA:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 2%; bottom: -130%; 
+    z-index: 1;
+    padding: 5px 10px;
+    border:none;
+    color:white;   
+}
+
+p {
+  line-height: 1.8;
+  color:#f5f5f5;
+}
+
+span {
+  letter-spacing: 10px;
+  color:white;
+  margin: 0;
+  font-size: 45px;
+  margin-bottom:55px;  
+}
+
+.parent--el {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+.parent--el .two--col {
+  display: flex;
+  align-items: center;
+}
+
+figure {
+  margin: 0;
+}
+
+.is-item {
+  width: 60%;
+}
+.is-item.has--img {
+  width: 40%;
+}
+
+.the-img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.the-img img {
+  width: 100%;
+}
+
+.is-item--inner {
+  padding: 0em 3em;
+}
+
+hr {
+  margin: 0.5em 0em;
+  height: 4px;
+  background: #eee;
+  border: none;
+}
+
+.the-img img {
+  position: relative;
+  transform: translateX(100%);
+  transition: all 600ms ease;
+}
+
+.is-item--inner p {
+  transform: translateY(15px);
+  position: relative;
+  opacity: 0;
+  transition: all 400ms ease;
+}
+
+ span {
+  transform: translateY(100%);
+  position: relative;
+  transition: all 500ms ease;
+  display: inline-block;
+  overflow: hidden;
+}
+
+hr {
+  width: 0;
+  max-width: 8em;
+  transition: all 2500ms ease;
+}
+.parent--el.is-selected .the-img {
+  overflow: hidden;
+}
+.parent--el.is-selected .the-img img {
+  position: relative;
+  transform: translateX(0%);
+  transition-delay: 500ms;
+}
+.parent--el.is-selected .is-item--inner p {
+  transform: translateY(0px);
+  transition-delay: 500ms;
+  position: relative;
+  opacity: 1;
+}
+.parent--el.is-selected .is-item--inner p:nth-of-type(2) {
+  color: red;
+  transition-delay: 700ms;
+}
+.parent--el.is-selected .is-item--inner p:nth-of-type(3) {
+  transition-delay: 900ms;
+}
+
+}
+.parent--el.is-selected  span {
+  transform: translateY(0%);
+  position: relative;
+  transition-delay: 400ms;
+  display: inline-block;
+  overflow: hidden;
+}
+.parent--el.is-selected hr {
+  width: 100%;
+  max-width: 8em;
+  transition-delay: 500ms;
+}
+
+
+/*///////////////////////////// CONTENT close /////////////////////////////////*/
+
+
+/*/////////////////////////////// INFOTABLE ///////////////////////////////////*/
+
+.infoBlock{
+  text-shadow: 1px 1px 1px #18171c;
+  display: table;
+  width: 100%;
+  background-color:#232629;
+  color:white;
+}
+
+.bckgrndLi{
+  float: left;
+  margin-top:50px;
+  margin-left:25px; 
+  width:300px;
+  height:400px;
+  margin-bottom:50px; 
+  text-align: center; 
+}
+
+.containerForBcli{
+  display: table;
+  padding-left: 50px;
+  padding-right: 0px;
+}
+
+.bckgrndLi2{
+  float: left;
+  margin-top:50px; 
+  width:300px;
+  height:400px;
+  margin-bottom:50px; 
+  text-align: center; 
+}
+
+.liHeadText{
+  color: #ff3333;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+.headInfo{
+  width:100%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 32px;
+}
+
+
+/*///////////////////////////// INFOTABLE close /////////////////////////////////*/
+
+
+/*///////////////////////////////// FOOTER  /////////////////////////////////////*/
+
+
+.page-footer{
+  background-color: #151719;
+}
+
+.formFooter{
+  color: white;
+}
+
+.formFooterTextarea{
+  color: white;
+  border:1px solid white;
+  width:100%;
+  height: 100px;
+  margin-top:20px;
+  resize: none;
+}
+
+.submitFooter{
+  cursor: pointer;
+  margin-top:10px; 
+  width:90px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border: none;
+}
+
+.lineHeightFooter{
+  line-height: 0.5;
+  color:red;
+}
+
+.letSpace{
+  letter-spacing: 1px;
+}
+
+.menuFooter a{
+  color:white;
+  transition: 0.5s;
+}
+
+.menuFooter a:hover{
+  color:red;
+  transition: 0.5s;
+}
+
+#padding{
+  margin-bottom:70px; 
+}
+
+#letSpaceHeadingFooter{
+  letter-spacing: 2px;
+}
+
+
+/*///////////////////////////////// FOOTER close /////////////////////////////////////*/

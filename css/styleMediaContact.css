@@ -1,0 +1,461 @@
+/*
+ * Theme Name: TechShum
+ *
+ * Layout: styleMediaContact
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+@media (min-width: 1720px) and (max-width: 1920px) {
+.logo{ 
+  font-size:50px; 
+}
+
+.contactsR{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  height: 680px;
+}
+
+.message{
+  height: 250px;
+}
+
+.menu{
+  margin-top:30px;
+  font-size:17px;  
+}
+}
+
+@media (min-width: 1620px) and (max-width: 1719px) {
+.logo{ 
+  font-size:45px; 
+}
+
+.contactsR{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  height: 680px;
+}
+
+.message{
+  height: 250px;
+}
+}
+
+@media (min-width: 1500px) and (max-width: 1619px) {
+.logo{ 
+  font-size:45px; 
+}
+
+.contactsR{
+  margin-top: 100px;
+  margin-bottom: 190px;
+  height: 680px;
+}
+
+.message{
+  height: 250px;
+}
+}
+
+@media (min-width: 1367px) and (max-width: 1499px){
+.contactsR{
+  margin-top: 80px;
+  margin-bottom: 160px;
+  height: 680px;
+}
+
+.message{
+  height: 250px;
+}
+}
+
+@media (min-width: 1250px) and (max-width: 1365px) {
+
+.contactsR{
+  margin-top: 80px;
+  margin-bottom: 160px;
+  height: 600px;
+}
+}
+
+@media (min-width: 1120px) and (max-width: 1249px) {
+
+.contactsR{
+  margin-top: 70px;
+  margin-bottom: 150px;
+  margin-left: 10%;
+  width:80%;
+  height: 590px;
+}
+}
+
+@media (min-width: 1070px) and (max-width: 1119px) {
+.menu{
+  font-size:15px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.contactsR{
+  margin-top: 70px;
+  margin-bottom: 120px;
+  margin-left: 10%;
+  width:80%;
+  height: 580px;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1069px) {
+.menu{
+  font-size:15px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.contactsR{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  width:80%;
+  height: 580px;
+}
+}
+
+@media (min-width: 920px) and (max-width: 999px) {
+.menu{
+  font-size:15px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.contactsR{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  width:80%;
+  height: 580px;
+}
+}
+
+@media (min-width: 850px) and (max-width: 919px) {
+.menu{
+  font-size:15px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.contactsR{
+  margin-top: 50px;
+  margin-bottom: 90px;
+  margin-left: 10%;
+  width:80%;
+  height: 570px;
+}
+}
+
+
+@media (min-width: 650px) and (max-width: 850px) {
+.menu{
+  font-size:12px; 
+}
+}
+
+@media (min-width: 750px) and (max-width: 849px) {
+.headInfo{
+  font-size: 25px;
+}
+
+.contactsR{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  width:80%;
+  height: 580px;
+}
+
+.message{
+  height: 180px;
+}
+}
+
+@media (min-width: 651px) and (max-width: 749px) {
+
+.logo{
+  font-size: 28px;
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.contactsR{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  width:80%;
+  height: 570px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:13px; 
+  width: 200px;
+  height: 40px;  
+}
+}
+
+@media (min-width: 520px) and (max-width: 650px) {
+.menu{
+  font-size:12px; 
+}
+
+.logo{
+  font-size: 28px;
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.contactsR{
+  margin-top: 50px;
+  margin-bottom: 90px;
+  margin-left: 10%;
+  width:80%;
+  height: 570px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;  
+}
+
+.linksMenu{
+  margin-right:30px; 
+}
+}
+
+
+
+@media (min-width: 450px) and (max-width: 520px) {
+
+.menu{
+  font-size:12px;
+}
+
+.logo{
+  font-size: 27px;
+  margin-left: 167px;
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.contactsR{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+  width:80%;
+  height: 590px;
+}
+
+.message{
+  height: 190px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;  
+}
+
+.linksMenu{
+  margin-right:30px; 
+}
+}
+
+
+@media (min-width: 381px) and (max-width: 449px) {
+.menu{
+  font-size:12px;
+  width: 81%;
+  margin-left:0%;  
+}
+
+.logo{
+  font-size: 25px;
+  margin-left: 132px;
+}
+
+.headInfo{
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.contactsR{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 15%;
+  width:70%;
+  height: 590px;
+}
+
+.message{
+  height: 190px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;   
+}
+
+.linksMenu{
+  margin-right:30px; 
+}
+}
+
+
+
+@media (min-width: 350px) and (max-width: 380px) {
+.menu{
+  font-size:11px; 
+  width: 81%;
+  margin-left:0%; 
+}
+
+.logo{
+  font-size: 25px;
+  margin-left: 115px;
+}
+
+.headInfo{
+  font-size: 17px;
+}
+
+.contactsR{
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: 15%;
+  width:70%;
+  height: 580px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;  
+}
+
+.linksMenu{
+  margin-right:30px; 
+}
+}
+
+
+@media (min-width: 300px) and (max-width: 349px) {
+.menu{
+  width: 85%;
+  margin-left:0%; 
+  font-size:10px; 
+}
+.linksMenu{
+  margin-right:20px; 
+}
+
+.logo{
+  font-size: 25px;
+  margin-left: 90px;
+}
+
+.headInfo{
+  font-size: 15px;
+}
+
+.contactsR{
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: 10%;
+  width:80%;
+  height: 600px;
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:11px; 
+  width: 150px;
+  height: 40px;   
+}
+
+.linksMenu{
+  margin-right:30px; 
+}
+}
+
+@media (min-width: 200px) and (max-width: 299px) {
+.menu{
+  width: 70%;
+  margin-left:10%; 
+  font-size:8px; 
+}
+.linksMenu{
+  margin-right:40px; 
+}
+
+.logo{
+  font-size: 25px;
+  margin-left: 70px;
+}
+
+.headInfo{
+  font-size: 15px;
+}
+
+.contactsR{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 0%;
+  width:100%;
+
+}
+
+.message{
+  height: 170px;
+}
+
+.xbutx{
+  font-size:10px; 
+  width: 100px;
+  height: 25px; 
+}
+
+.linksMenu{
+  margin-right:20px; 
+}
+}

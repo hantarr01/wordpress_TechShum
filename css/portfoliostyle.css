@@ -1,0 +1,562 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color:#232629;
+}
+
+/*////////////////////////// HEADER started //////////////////////////////*/
+
+/*////////////////////////// MENU started //////////////////////////////*/
+.Nav1Menu{
+  background-color:#151719; 
+  box-shadow: none;
+}
+
+.Nav1Menu a:hover{
+  color: red;
+  transition: 0.5s;
+}
+
+#mobile-demo{
+  text-align: left;
+  background-color: #232629;
+}
+
+#mobile-demo a{
+ color:white;
+}
+
+#mobile-demo a:hover{
+ color:red;
+ transition:0.5;
+}
+
+#logo{ 
+  font-family: 'Righteous', cursive;
+  float: left;
+  color: white;  
+}
+
+/*////////////////////////// MENU stoped //////////////////////////////*/
+
+/*////////////////////////// HEADER stoped //////////////////////////////*/
+
+.headInfo{
+  width:100%;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 32px;
+  margin-top:50px; 
+  color: white;
+  margin-bottom:90px;
+  float: left; 
+}
+
+
+#portfolioblock div{
+	-moz-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+   margin-top: 20px;
+  margin-bottom: 20px;
+ } 
+
+#portfolioblock div:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+  transition:0.5s;
+}
+
+.container-fluid{
+  margin-left: 2.5%;
+  width: 95%;
+}
+
+/*///////////////////////////////// FOOTER  /////////////////////////////////////*/
+
+
+.page-footer{
+  background-color: #151719;
+  margin-top:100px;
+}
+
+.formFooter{
+  color: white;
+}
+
+.formFooterTextarea{
+  color: white;
+  border:1px solid white;
+  width:100%;
+  height: 100px;
+  margin-top:20px;
+  resize: none;
+}
+
+.submitFooter{
+  cursor: pointer;
+  margin-top:10px; 
+  width:90px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border: none;
+}
+
+.lineHeightFooter{
+  line-height: 0.5;
+  color:red;
+}
+
+.letSpace{
+  letter-spacing: 1px;
+}
+
+.menuFooter a{
+  color:white;
+  transition: 0.5s;
+  line-height: 1.5; 
+}
+
+.menuFooter a:hover{
+  color:red;
+  transition: 0.5s;
+}
+
+#padding{
+  margin-bottom:70px; 
+}
+
+#letSpaceHeadingFooter{
+  letter-spacing: 2px;
+}
+
+
+/*///////////////////////////////// FOOTER close /////////////////////////////////////*/
+
+@media only screen and (max-width:800px) and (min-width:600px){
+#portfolioblock div img{
+	margin-right: 5%;
+	width:250px;
+ } 
+}
+
+
+@media only screen and (max-width:480px){
+#portfolioblock div img{
+	width:250px;
+ }
+}
+
+@media only screen and (max-width:400px){
+#portfolioblock div img{
+	margin-left: -10%;
+	width:250px;
+ } 
+}
+
+@media only screen and (max-width:333px){
+#portfolioblock div img{
+	margin-left: -25%;
+	width:250px;
+ } 
+}
+/*///////////////////////////////////////media///////////////////////////////////////////////*/
+@media (min-width: 1720px) and (max-width: 1920px) {
+.logo{ 
+  font-size:50px; 
+}
+
+.menu{
+  margin-top:30px; 
+   font-size:17px;
+}
+
+.container-fluid{
+  margin-left: 5.5%;
+  width: 95%;
+}
+
+.headInfo{
+  margin-top:80px; 
+  margin-bottom:80px;
+}
+}
+
+@media (min-width: 1620px) and (max-width: 1719px) {
+.logo{ 
+  font-size:45px; 
+}
+}
+
+@media (min-width: 1500px) and (max-width: 1620px) {
+.logo{ 
+  font-size:45px; 
+}
+}
+
+
+@media (min-width: 1070px) and (max-width: 1120px) {
+.menu{
+  font-size:15px; 
+}
+
+.infoBlock{
+  padding-left:40px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+}
+
+@media (min-width: 1000px) and (max-width: 1070px) {
+.menu{
+  font-size:15px; 
+}
+
+.infoBlock{
+  padding-left:40px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.bckgrndLi{
+  margin-left:20px; 
+  margin-bottom:10px; 
+  height:290px;
+  width:210px;
+}
+}
+
+@media (min-width: 920px) and (max-width: 999px) {
+.menu{
+  font-size:15px; 
+}
+
+.infoBlock{
+  padding-left:20px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.bckgrndLi{
+  margin-left:10px; 
+  margin-bottom:10px; 
+  height:290px;
+  width:210px;
+}
+}
+
+@media (min-width: 850px) and (max-width: 920px) {
+.menu{
+  font-size:15px; 
+}
+
+.infoBlock{
+  padding-left:30px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 27px;
+}
+
+.bckgrndLi{
+  height:310px;
+  width:230px;
+}
+}
+
+
+@media (min-width: 650px) and (max-width: 850px) {
+.menu{
+  font-size:12px; 
+}
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+
+.infoBlock{
+  padding-left:30px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 25px;
+}
+
+.bckgrndLi{
+  height:250px;
+  width:190px;
+  margin-left:30px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:12px; 
+}
+}
+
+@media (min-width: 651px) and (max-width: 750px) {
+
+.logo{
+  font-size: 28px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:30px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.bckgrndLi{
+  height:220px;
+  width:160px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:12px; 
+}
+}
+
+@media (min-width: 520px) and (max-width: 650px) {
+.menu{
+  font-size:12px; 
+}
+
+.logo{
+  font-size: 28px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:35px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.bckgrndLi{
+  height:200px;
+  width:140px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:12px; 
+}
+}
+
+
+
+@media (min-width: 450px) and (max-width: 520px) {
+
+.menu{
+  font-size:12px;
+}
+
+.logo{
+  font-size: 27px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:0px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.headInfo{
+  font-size: 20px;
+}
+
+.bckgrndLi{
+  height:185px;
+  width:130px;
+  margin-left:15px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:11px; 
+}
+}
+
+
+@media (min-width: 381px) and (max-width: 449px) {
+.menu{
+  font-size:12px; 
+}
+
+.logo{
+  font-size: 25px;
+}
+
+.headInfo{
+  font-size: 18px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:10px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.bckgrndLi{
+  height:150px;
+  width:100px;
+  margin-bottom:20px; 
+}
+
+.nameRaz{
+  font-size:10px; 
+}
+}
+
+
+
+@media (min-width: 350px) and (max-width: 380px) {
+.menu{
+  font-size:11px; 
+}
+
+.logo{
+  font-size: 25px;
+}
+
+.headInfo{
+  margin-top:30px;
+  margin-bottom:20px;
+  font-size: 17px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:0px; 
+  margin-top:30px; 
+  padding-bottom:30px; 
+}
+
+.bckgrndLi{
+  height:147px;
+  width:100px;
+  margin-bottom:20px; 
+  margin-left:10px; 
+}
+
+.nameRaz{
+  font-size:10px; 
+}
+}
+
+
+@media (min-width: 300px) and (max-width: 349px) {
+.menu{
+  width: 80%;
+  margin-left:15%; 
+  font-size:10px; 
+}
+.linksMenu{
+  margin-right:20px; 
+}
+
+.headInfo{
+  margin-top:30px;
+  margin-bottom:20px; 
+  font-size: 17px;
+}
+
+.logo{
+  font-size: 25px;
+}
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  padding-left:10px; 
+  margin-top:20px; 
+  padding-bottom:20px; 
+}
+
+.bckgrndLi{
+  height:150px;
+  width:100px;
+}
+
+.nameRaz{
+  font-size:10px; 
+}
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+
+.menu{
+  width: 70%;
+  margin-left:10%; 
+  font-size:5px; 
+}
+.linksMenu{
+  margin-right:40px; 
+}
+}

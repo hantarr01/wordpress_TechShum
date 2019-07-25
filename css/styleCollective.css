@@ -1,0 +1,154 @@
+/*
+ * Theme Name: TechShum
+ *
+ * Layout: styleCollective
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*////////////////////////// HEADER started //////////////////////////////*/
+
+/*////////////////////////// MENU started //////////////////////////////*/
+.Nav1Menu{
+  background-color:#151719; 
+  box-shadow: none;
+}
+
+.Nav1Menu a:hover{
+  color: red;
+  transition: 0.5s;
+}
+
+#mobile-demo{
+  text-align: left;
+  background-color: #232629;
+}
+
+#mobile-demo a{
+ color:white;
+}
+
+#mobile-demo a:hover{
+ color:red;
+ transition:0.5;
+}
+
+#logo{ 
+  font-family: 'Righteous', cursive;
+  float: left;
+  color: white;  
+}
+
+/*////////////////////////// MENU stoped //////////////////////////////*/
+
+/*////////////////////////// HEADER stoped //////////////////////////////*/
+
+
+/*////////////////////////// CONTENT start //////////////////////////////*/
+
+.contentBlock{  
+  display: table;
+  background-color:#232629;
+  width:100%;
+  color:white; 
+}
+
+.infoBlock{
+  text-shadow: 1px 1px 1px #18171c;
+  display: table;
+  padding-left:45px; 
+  margin-top:70px; 
+  background-color:#232629;
+  color:white;
+  padding-bottom:100px; 
+}
+
+.bckgrndLi{
+  width:290px;
+  float: left;
+  margin-left:20px; 
+  margin-bottom:10px; 
+  text-align: center;
+  background-color: #151719; 
+}
+
+.headInfo{
+  width:100%;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 32px;
+  margin-top:30px; 
+}
+
+.nameRaz{
+  padding-bottom:-15px;
+}
+
+/*////////////////////////// CONTENT stop //////////////////////////////*/
+
+
+/*///////////////////////////////// FOOTER  /////////////////////////////////////*/
+
+
+.page-footer{
+  background-color: #151719;
+}
+
+.formFooter{
+  color: white;
+}
+
+.formFooterTextarea{
+  color: white;
+  border:1px solid white;
+  width:100%;
+  height: 100px;
+  margin-top:20px;
+  resize: none;
+}
+
+.submitFooter{
+  cursor: pointer;
+  margin-top:10px; 
+  width:90px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border: none;
+}
+
+.lineHeightFooter{
+  line-height: 0.5;
+  color:red;
+}
+
+.letSpace{
+  letter-spacing: 1px;
+}
+
+.menuFooter a{
+  color:white;
+  transition: 0.5s;
+}
+
+.menuFooter a:hover{
+  color:red;
+  transition: 0.5s;
+}
+
+#padding{
+  margin-bottom:70px; 
+}
+
+#letSpaceHeadingFooter{
+  letter-spacing: 2px;
+}
+
+
+/*///////////////////////////////// FOOTER close /////////////////////////////////////*/
