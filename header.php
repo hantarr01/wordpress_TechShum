@@ -18,15 +18,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<?php wp_head(); ?>
 
-
-	<link rel='stylesheet prefetch' href='https://unpkg.com/flickity@2/dist/flickity.min.css'>
-
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Oxygen" rel="stylesheet"> 
-
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
 	<title>TechShum - Главная</title>
 
 </head>
